@@ -1,0 +1,16 @@
+<div>
+    <table>
+        <thead>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let f of friends">
+                <td>{{ f.name }}</td>
+                <td>{{ f.email }}</td>
+                <td>{{ f.mobile }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

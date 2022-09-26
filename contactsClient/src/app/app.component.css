@@ -1,0 +1,11 @@
+button {
+    margin-right: 10px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    /* because flex-direction is column, 
+    so it's align-items instead of justify-content */
+    align-items: center;
+}

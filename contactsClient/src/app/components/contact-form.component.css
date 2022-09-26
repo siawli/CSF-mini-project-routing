@@ -1,0 +1,9 @@
+.button-col {
+    display: flex;
+    justify-content: right;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
